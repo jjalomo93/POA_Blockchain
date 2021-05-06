@@ -69,23 +69,23 @@ After these inputs, you can click save & use custom node. Once connected, we wil
 
 Once our custom node is set up, we click back into "view & send" on the left navigation pane of MyCrypto. Once here, there is an option to log into your wallet with your Keystore File. Navigate to this option.<br>
 Once here, you can upload your UTC file that was generated when creating your nodes. This should be the UTC from the first node. In my case, this will be node3. After you select the file, you will be prompted to input your password. After entering, you should gain access to your wallet.
-![Keystore Inputs](images/wallet_keystore.png)
+![Keystore Inputs](Images/wallet_keystore.png)
 Since we pre-funded our wallet when setting up the genesis block, you should see a large amount of ETH in the wallet. That is how we know we are connected properly. This is the amount of ETH in my wallet after unlocking it:
 ![Funded](images/wallet_funded.png)
 
 ### Step 3: Sending and verifying transactions
 
 Now that we have unlocked our wallet, we will send a test transaction to our secondary address. This is the address generated when we created our second node. The inputs are as such:
-![Transaction Inputs](images/transaction1.png)
+![Transaction Inputs](Images/transaction1.png)
 You will then be prompted to confirm this:
-![Transaction Prompt](images/transaction2.png)
+![Transaction Prompt](Images/transaction2.png)
 Once you click send, a hash number will be generated for us to track the transaction:
-![Transaction Hash](images/transaction3.png)
+![Transaction Hash](Images/transaction3.png)
 Lastly, you can click through to check transaction status. Initially it will be set to pending while the blockchain is mining the transaction. You can also verify this in your terminal. The transaction should appear as mined. Once it is mined, the status of the transaction should change to successful in MyCrypto.
-![Transaction Success](images/transaction4.png)
+![Transaction Success](Images/transaction4.png)
 
 After you confirm that the transaction is successful, you should be able to see the change in ETH reflected in your wallet. Log back in with the same keystore file and verify the transaction. My account reflected:
-![Wallet After Transaction](images/wallet_aftertrans.png)
+![Wallet After Transaction](Images/wallet_aftertrans.png)
 
 <br>
 
