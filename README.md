@@ -71,7 +71,7 @@ Once our custom node is set up, we click back into "view & send" on the left nav
 Once here, you can upload your UTC file that was generated when creating your nodes. This should be the UTC from the first node. In my case, this will be node3. After you select the file, you will be prompted to input your password. After entering, you should gain access to your wallet.
 ![Keystore Inputs](Images/wallet_keystore.png)
 Since we pre-funded our wallet when setting up the genesis block, you should see a large amount of ETH in the wallet. That is how we know we are connected properly. This is the amount of ETH in my wallet after unlocking it:
-![Funded](images/wallet_funded.png)
+![Funded](Images/wallet_funded.png)
 
 ### Step 3: Sending and verifying transactions
 
